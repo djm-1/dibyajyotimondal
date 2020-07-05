@@ -1,0 +1,154 @@
+.gradcol{
+    
+    background: linear-gradient(-45deg,#EE7752,#E73C73,#23A6D5,#23D5AB);
+
+}
+/* navbar css begin*/
+.logoname{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.nav-link{
+    font-size: 20px;
+}
+.navbar{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.nav-link:hover{
+    font-weight: bold;
+}
+/* navbar css end */
+.myface
+{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 200rem;
+}
+.ident{
+    font-family: cursive;
+    font-weight: bolder;
+    color: white;
+}
+
+.contain2{
+   
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+/* word css */
+.anti-slogan{
+    font-family: cursive;
+    font-weight: bolder;
+    color: #E73C73;
+}
+p{
+    
+   font-size: larger;
+}
+/* word css end */
+.box div{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border:6px solid rgba(255, 255, 255, 0.8);
+    z-index: -1;
+    
+}
+/* child of box for animation */
+.box div:nth-child(1){
+    top: 70%;
+    left: 34%;
+    animation: animate 3s linear infinite;
+}
+.box div:nth-child(2){
+    top: 87%;
+    left: 69%;
+    animation: animate 4s linear infinite;
+}
+.box div:nth-child(3){
+    top: 54%;
+    left: 28%;
+    animation: animate 2s linear infinite;
+}
+.box div:nth-child(4){
+    top: 76%;
+    left: 19%;
+    animation: animate 3s linear infinite;
+}
+.box div:nth-child(5){
+    top: 43%;
+    left: 13%;
+    animation: animate 4s linear infinite;
+}
+.box div:nth-child(6){
+    top: 64%;
+    left: 90%;
+    animation: animate 2s linear infinite;
+}
+.box div:nth-child(7){
+    top: 57%;
+    left: 62%;
+    animation: animate 4s linear infinite;
+}
+.box div:nth-child(8){
+    top: 70%;
+    left: 3%;
+    animation: animate 3s linear infinite;
+}
+.box div:nth-child(9){
+    top: 47%;
+    left: 83%;
+    animation: animate 2s linear infinite;
+}
+.box div:nth-child(10){
+    top: 80%;
+    left: 78%;
+    animation: animate 3s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(2.5) translateY(-90px) rotate(360deg);
+        opacity: 0;
+    }
+}
+.halfpart{
+    padding: 5%;
+}
+/* for vector image */
+.imagevec{
+    height: 100%;
+    width: 100%;
+} 
+/* button css */
+.cust{
+    border-color: #E73C73;
+    background-color: white;
+    color: #E73C73;
+}
+.cust:hover{
+    background-color: #E73C73;
+    color: white;
+}
+
+
+/* footer css */
+.foot{
+    margin-bottom: 0px;
+    width: 100%;
+    background-color:black;
+    height: 80px;
+}
+.footfont{
+    padding-top: 20px;
+    color: white;
+    margin-bottom: 0px;
+}

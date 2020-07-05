@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- parallax js CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <link rel="stylesheet" href="projects.css">
+    <title>My Projects</title>
+  </head>
+  <body style="text-align: center;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+      <a class="navbar-brand" href="index.html">
+          <img src="child-mod.svg" width="50" height="50" class="d-inline-block align-top" alt="" loading="lazy">
+          <span class="logoname">Dibyajyoti Mondal</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+              <a class="nav-link" href="projects.html">Projects and skills<span class="sr-only">(current)</span></a>
+          </li>
+          <!-- <li class="nav-item active">
+              <a class="nav-link" href="#">Skills<span class="sr-only">(current)</span></a>
+          </li> -->
+          <li class="nav-item active">
+              <a class="nav-link" href="contactme.html">Contact Me <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- parallax section begin -->
+    <div id="scene">
+      <div data-depth="1"><img class="elem" src="parallax\planet1.png" alt=""></div>
+      <div data-depth="-1"><img class="elem" src="parallax\planet2.png" alt=""></div>
+      <div data-depth="0.5"><img class="elem" src="parallax\rocket.png" alt=""></div>
+      <div data-depth="2"><img class="elem" src="parallax\astronaut.png" alt=""></div>
+      <div data-depth="0.1"><img class="elem" src="parallax\text1.png" alt=""></div>
+      
+    </div>
+    <script type="text/javascript">
+      var scene = document.getElementById('scene');
+      var parallaxInstance = new Parallax(scene);
+      
+    </script>
+    <!-- parralax section end -->
+
+
+    <!-- project setion begin -->
+    <div style="background-color: #212529;">
+      <h1 class="slogan" style="padding-top: 4%;">Hands On Experience</h1>
+      <div class="row">
+        <div class="col-sm-4 halfpart">
+          <div class="card projcont">
+            <img src="art\webdev.svg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">WhatsApp online status viewer</h5>
+              <p class="card-text">A Python Selenium-based script to store the interval when your friend is online or offline, even if the last seen time of the user is turned off.</p>
+              <a href="https://github.com/djm-1/whatsapp-online-status-checker" target="blank" class="btn btn-lg cust">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 halfpart">
+          <div class="card projcont">
+            <img src="art\developer.svg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Django quiz application</h5>
+              <p class="card-text">A simple quiz application (with timer functionality) made using Django as backend, where questions and options can be imported into the database from CSV file.</p>
+              <a href="https://djm-quizmaster.herokuapp.com" target="blank" class="btn btn-lg cust">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 halfpart">
+          <div class="card projcont">
+            <img src="art\coder.svg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Utkarsh official website</h5>
+              <p class="card-text">This is the official website of UTKARSH, an alumni association of our school. I built this website using WordPress in a short span of time.</p>
+              <a href="https://utkarsh-bhs.000webhostapp.com" target="blank" class="btn btn-lg cust">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  projects  end-->
+    <!-- curvy design -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#212529" fill-opacity="1" d="M0,224L48,208C96,192,192,160,288,170.7C384,181,480,235,576,250.7C672,267,768,245,864,202.7C960,160,1056,96,1152,101.3C1248,107,1344,181,1392,218.7L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+
+
+    <!-- Skills section -->
+    <h1 class="anti-slogan">My Skills</h1><br>
+    <div><h2>Programming languages</h2></div>
+    <div class="row">
+      <div class="col-sm-6 halfpart"><img height="100px" src="art\c++.svg" alt=""></div>
+      <div class="col-sm-6 halfpart"><img height="100px" src="art\python.svg" alt=""></div>
+    </div>
+    <div><h2>My web-dev tools</h2></div>
+    <div class="row">
+      <div class="col-sm-4 halfpart"><img height="100px" src="art\html.svg" alt=""></div>
+      <div class="col-sm-4 halfpart"><img height="100px" src="art\css.svg" alt=""></div>
+      <div class="col-sm-4 halfpart"><img height="100px" src="art\js.svg" alt=""></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 halfpart"><img height="100px" src="art\bootstrap.svg" alt=""></div>
+      <div class="col-sm-4 halfpart"><img height="100px" src="art\django.svg" alt=""></div>
+      <div class="col-sm-4 halfpart"><img height="100px" src="art\wordpress.svg" alt=""></div>
+    </div>
+
+    <!-- other skills -->
+    <div><h2>Other skills</h2></div>
+    <div style="margin-top: 3%; margin-bottom:3%;">
+      <span class="container-sm others">Mathematics</span>
+      <span class="container-sm others">Data structures</span>
+      <span class="container-sm others">Algorithms</span>
+      <span class="container-sm others">Competitive programming</span>
+      <span class="container-sm others">MATLAB</span>
+      <span class="container-sm others">Arduino</span>
+      <span class="container-sm others">Content writing</span>
+      <span class="container-sm others">Gaming</span>
+    </div>
+
+
+    <!-- cp profile -->
+    <div><h2>Competitive programming profile</h2></div>
+    <div><p>I am a newbie in the world of mind sports. Due to my passion for mathematics and general problem solving, I take part in programming contests over various platforms. I enjoy solving algorithmic problems and the green ticks of AC are really worth it!</p></div><br>
+    <p><strong><em>It's a long way to go....wish me some luck. </em></strong></p>
+    <div class="row">
+      <div class="col-sm-4 halfpart">
+        <img height="100px" src="art\hackerrank.svg" alt="">
+        <div style="margin-top: 10%;"><a href="https://www.hackerrank.com/djm_boss" target="blank" class="btn btn-lg cust">Visit my HackerRank Profile</a></div>
+      </div>
+      <div class="col-sm-4 halfpart">
+        <img height="100px" src="art\codechef.svg" alt="">
+        <div style="margin-top: 10%;"><a href="https://www.codechef.com/users/djm_boss" target="blank" class="btn btn-lg cust">Visit my CodeChef Profile</a></div>
+      </div>
+      <div class="col-sm-4 halfpart">
+        <img height="100px" src="art\codeforces.svg" alt="">
+        <div style="margin-top: 10%;"><a href="https://codeforces.com/profile/dibyajyotimondal" target="blank" class="btn btn-lg cust">Visit my Codeforces Profile</a></div>
+      </div>
+    </div>
+
+    <!-- quora adv -->
+    <div class="row">
+      <div class="col-sm-6 halfpart">
+        <h2 class="anti-slogan">I love creative writing and helping others!</h2>
+        <div style="margin-top:10% ;">
+          <p>Although I am not a professional content writer or so, I like to write about my idea and perspective about different matters and read the same of others also. Generally, I write about cracking entrance examinations like WBJEE, IAT, JEE etc. on Quora to help my juniors.<strong> I have written 50+ answers on Quora with 10K+ content views.</strong></p>
+          <p>Have a look if you are interested.</p>
+        </div>
+        <div style="margin-top: 10%;"><a href="https://www.quora.com/profile/Dibyajyoti-Mondal-5" target="blank" class="btn btn-lg cust">Visit my Quora Profile</a></div>
+      </div>
+      <div class="col-sm-6 halfpart">
+        <img class="imagevec" src="art\thinker.svg" alt="">
+      </div>
+    </div>
+    <!-- page footer -->
+    <div class="foot">
+      <div class="footfont">Hand-tailored by Dibyajyoti Mondal © 2020 <br>dibyajyoti.bhs@gmail.com</div>        
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

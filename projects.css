@@ -1,0 +1,105 @@
+/* navbar css begin*/
+.logoname{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.nav-link{
+    font-size: 20px;
+}
+/* .navbar{
+    background-color: rgba(106, 60, 190, 0.5);
+} */
+.nav-link:hover{
+    font-weight: bold;
+}
+
+/* navbar css end */
+/* #scene{
+    background: url(backgroundsmall.png);
+    overflow: hidden;
+    background-size: cover;
+    
+} */
+/* @media only screen and (min-width: 1200px) {
+    
+  } */
+#scene{
+    background: url(parallax/background.jpg);
+    overflow: hidden;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.elem{
+    height: 100%;
+    width: 100%;
+}
+
+/* some word css */
+p{
+    
+    font-size: larger;
+}
+.slogan{
+    font-family: cursive;
+    font-weight: bolder;
+    color: white;
+}
+.anti-slogan{
+    font-family: cursive;
+    font-weight: bolder;
+    color: #E73C73;
+}
+/* other skills css */
+.others{
+    background-color: black;
+    font-size: 22px;
+    color: white;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.card-title{
+    color: #E73C73;
+}
+/* container css */
+.halfpart{
+    padding: 5%;
+}
+.projcont{
+    border: 2px solid;
+    border-radius: 15px;
+    box-shadow: 6px 6px 10px rgba(255, 255, 255, 0.5);
+}
+/* button css */
+.cust{
+    border-color: #E73C73;
+    background-color: white;
+    color: #E73C73;
+}
+.cust:hover{
+    background-color: #E73C73;
+    color: white;
+}
+
+
+
+/* for vector image */
+.imagevec{
+    height: 100%;
+    width: 100%;
+}
+/* footer css */
+.foot{
+    margin-bottom: 0px;
+    width: 100%;
+    background-color:black;
+    height: 80px;
+}
+.footfont{
+    padding-top: 20px;
+    color: white;
+    margin-bottom: 0px;
+}
