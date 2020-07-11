@@ -4,7 +4,9 @@
     font-size: 30px;
     margin-left: 10px;
 }
-
+body{
+    overflow-x: hidden;
+}
 .nav-link{
     font-size: 20px;
 }
